@@ -40,8 +40,6 @@ def has_symbol_neighbor(neighboring_positions):
 
     return symbol_flag, symbol_char_positions
 
-    return any([True if not engine_matrix[y][x].isnumeric() and engine_matrix[y][x] != '.' else False for y, x in neighboring_positions])
-
 symbol_part_nums = defaultdict(list)
 
 # Part 1
